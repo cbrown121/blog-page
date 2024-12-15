@@ -1,0 +1,125 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container Adjustments */
+  main.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar .nav-link, .navbar-brand {
+    color: #ffffff !important;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #adb5bd !important;
+  }
+  
+  /* Blog Post Cards */
+  .blog-post {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post-title {
+    font-size: 1.8rem;
+    color: #343a40;
+  }
+  
+  .blog-post p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+  }
+  
+  /* Forms */
+  form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  form label {
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  form .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    border-color: #80bdff;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: black;
+  }
+  
+  footer p {
+    margin: 0;
+  }
